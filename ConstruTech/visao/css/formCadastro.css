@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a; 
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 120vh; */
+    width: 100%;
+    background-color: #1a1a1a;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-atividade{
+    min-height: 125vh;
+}
+
+.section-documento{
+    min-height: 110vh;
+}
+
+.section-equipamento{
+    min-height: 120vh;
+}
+
+.section-estoque{
+    min-height: 100vh;
+}
+
+.section-financeiro{
+    min-height: 100vh;
+}
+
+.section-fornecedor{
+    min-height: 110vh;
+}
+
+.section-pf{
+    min-height: 100vh;
+}
+
+.section-pj{
+    min-height: 100vh;
+}
+
+.section-pp{
+    min-height: 130vh;
+}
+
+.section-projeto{
+    min-height: 120vh;
+}
+
+.form-container {
+    position: relative;
+    width: 600px;
+    background: #333;
+    border-radius:  20px;
+    display: flex;
+    justify-content: center;
+}
+
+#div-atividade{
+    height: 710px;
+}
+
+#div-documento{
+    height: 640px;
+}
+
+#div-equipamento{
+    height: 690px;
+}
+
+#div-estoque{
+    height: 600px;
+}
+
+#div-financeiro{
+    height: 580px;
+}
+
+#div-fornecedor{
+    height: 640px;
+}
+
+#div-pf{
+    height: 555px;
+}
+
+#div-pj{
+    height: 625px;
+}
+
+#div-pp{
+    height: 790px;
+}
+
+#div-projeto{
+    height: 700px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 1.3em; 
+    color: #ffc904; 
+    margin-top: 15px;
+}
+
+.titulo h1{
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.titulo img {
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 10px; 
+}
+
+.input-group {
+    position: relative;
+    margin: 20px 0;
+    width: 520px;
+}
+
+.input-group label {
+    display: block;
+    position: absolute; 
+    top: -10px; 
+    left: 7px; 
+    background-color: #333; 
+    border-radius: 5px;
+    color: #ffc904; 
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 5px; 
+    z-index: 1; 
+}
+
+.input-group input {
+    width: 100%;
+    height: 50px;
+    background: transparent; 
+    border: 2px solid #0f0f0f; 
+    border-radius: 5px; 
+    outline: none;
+    font-size: 1em;
+    padding: 0 10px; 
+    position: relative; 
+    z-index: 0; 
+}
+
+.input-group input[type="file"] {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #0f0f0f;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    padding: 0 10px;
+    color: #0f0f0f;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.input-group label {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 7px;
+    background-color: #333;
+    border-radius: 5px;
+    color: #ffc904;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 5px;
+    z-index: 1;
+}
+
+.input-group input[type="file"]::-webkit-file-upload-button {
+    background: #ffc904;
+    color: #0f0f0f;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #0f0f0f;
+    border-radius: 5px;
+    color: #0f0f0f;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 0 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    position: relative;
+    z-index: 0; 
+}
+
+textarea {
+    width: 100%;
+    height: 95px;
+    background: transparent;
+    border: 2px solid #0f0f0f;
+    border-radius: 5px;
+    color: #0f0f0f;
+    font-size: 1em;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    position: relative;
+    z-index: 0;
+}
+
+#botao {
+    width: 100%;
+    height: 40px;
+    margin-top: 7px;
+    border-radius: 40px;
+    border: none;
+    background: #ffc904;
+    color: #0f0f0f;
+    box-direction: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}

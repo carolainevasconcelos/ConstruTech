@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #1a1a1a;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 420px;
+    background: #333;
+    border-radius:  20px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 1.3em; 
+    color: #ffc904; 
+    margin-top: 15px;
+}
+
+.titulo h1{
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.titulo img {
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 10px; 
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #0f0f0f;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #0f0f0f;
+    font-size: 1em;
+    font-weight: 600;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label, input:valid ~ label{
+    top: -5px;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+
+.material-icons{
+    color: #0f0f0f;
+    position: absolute;
+    right: 8px;
+    font-size: 1em;
+    top: 20px;
+}
+
+.fas{
+    color: #0f0f0f;
+    position: absolute;
+    right: 8px;
+    font-size: .9em;
+    top: 20px;
+}
+    
+.buttons{
+    background: #ffc904;
+    font-weight: 600;
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+
+
+.link {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+.link:hover {
+    /* text-decoration: underline; */
+    color: #ffc904;
+}
+
+#create-password {
+    text-align: center;
+    font-size: 14px;
+}

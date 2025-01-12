@@ -1,0 +1,33 @@
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.welcome-message {
+    display: none; 
+    position: absolute;
+    top: 60px; 
+    right: 10px; 
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    padding: 10px;
+    z-index: 100;
+}
+
+.welcome-message h1 {
+    font-size: 14px;
+    color: #ffeb3b;
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.welcome-message u {
+    font-weight: bold;
+    color: #ffeb3b;
+}
